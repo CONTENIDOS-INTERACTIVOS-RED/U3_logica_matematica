@@ -21,8 +21,10 @@
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title.text-uppercase Lógica Matemática
-              h1.home-title.mb-4.text-uppercase Razonamiento y demostraciones lógicas
-              p.descripcion.mb-4 La unidad 2: Razonamiento y demostraciones lógicas, abarca el estudio de tres temas clave: tipos de razonamiento, técnicas de demostración y cuantificadores lógicos. Se exploran los razonamientos abductivo, inductivo y deductivo,  esenciales en la lógica y matemáticas. Luego, se presentan métodos de demostración, como la demostración directa, indirecta, por contraposición y reducción al absurdo, herramientas clave para validar proposiciones matemáticas. Finalmente, se revisan los cuantificadores existenciales y universales, esenciales para estructurar enunciados lógicos precisos y rigurosos, aportando una base sólida para el análisis lógico-matemático.
+              h1.home-title.mb-4.text-uppercase Lógica de predicados y aplicaciones en diferentes disciplinas
+              p.descripcion.mb-4 La lógica de predicados o lógica de primer orden amplía la lógica proposicional mediante el uso de variables, funciones y predicados, permitiendo representaciones detalladas y razonamientos complejos. Con variables y cuantificadores como para todo (∀) y existe (∃), es posible expresar relaciones y propiedades específicas de objetos. Sus aplicaciones incluyen diseño de algoritmos, verificación de software y modelado de decisiones. Además, permite formalizar razonamientos matemáticos, ingeniería y ciencias sociales, donde contribuye al análisis de sistemas, el diseño de redes y la investigación de fenómenos sociales.
+            
+              p.descripcion.mb-4.text-bold El poder del conocimiento está en transformar ideas en realidad; cada aprendizaje es un paso hacia la creación de un futuro mejor.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

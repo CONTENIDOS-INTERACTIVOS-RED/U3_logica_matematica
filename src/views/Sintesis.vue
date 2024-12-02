@@ -1,8 +1,8 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno(:titulo="'unidad 2: Razonamiento y demostraciones lógicas'" :subTitulo="'SÍNTESIS'")
+  BannerInterno(:titulo="'unidad 3: Lógica de predicados y aplicaciones en diferentes disciplinas'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 Esta unidad aborda los fundamentos del razonamiento lógico y las técnicas de demostración en matemáticas. Comienza con los tipos de razonamientos (inductivo, deductivo y abductivo) que permiten formular y analizar conclusiones. Luego, presenta técnicas de demostración clave: directa, indirecta, por contraposición y reducción al absurdo, que validan proposiciones de forma rigurosa. Finalmente, se explora el uso de cuantificadores lógicos (existenciales y universales) para formular enunciados precisos. Esta unidad ofrece herramientas esenciales para resolver problemas matemáticos y validar teoremas de manera formal.
+    p.mb-4.mb-md-5 Esta unidad aborda tres pilares de la lógica matemática aplicados a problemas complejos: la lógica de predicados, las aplicaciones de la lógica en informática, ingeniería y ciencias sociales, y la resolución de problemas mediante sistemas formales. Aprenderemos a usar variables, predicados y funciones para representar y analizar propiedades de elementos y relaciones entre ellos. Además, exploraremos cómo la lógica matemática respalda decisiones en tecnología y ciencias sociales, y cómo los sistemas formales, con axiomas y reglas de inferencia, garantizan soluciones precisas en el desarrollo de algoritmos y programas.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

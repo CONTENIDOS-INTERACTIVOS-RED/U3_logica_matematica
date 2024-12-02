@@ -29,25 +29,25 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Definición de lógica matemática',
+        titulo: 'Lógica de predicados: variables, funciones y predicados',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Razonamiento abductivo',
+            titulo: 'Predicados',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Razonamiento inductivo',
+            titulo: 'Cuantificadores en la Lógica de Predicados',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Razonamiento deductivo',
+            titulo: 'Aplicaciones de la Lógica de Predicados',
             hash: 't_1_3',
           },
         ],
@@ -56,34 +56,37 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Pensamiento lógico',
+        titulo:
+          'Aplicaciones de la lógica matemática en la informática, la ingeniería y las ciencias sociales',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Demostración directa',
+            titulo: 'Aplicaciones de la lógica matemática en la informática',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Demostración indirecta',
+            titulo: 'Aplicaciones en ingeniería',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Demostración por contraposición',
+            titulo: 'Aplicaciones en ciencias sociales',
             hash: 't_2_3',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Reducción al absurdo',
-            hash: 't_2_4',
-          },
         ],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Resolución de problemas mediante sistemas formales',
+        desarrolloContenidos: true,
+        subMenu: [],
       },
     ],
     subMenu: [
@@ -111,7 +114,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/Logica_Matematica_U2.zip',
+        download: 'downloads/Logica_Matematica_U3.zip',
       },
       {
         icono: 'fas fa-download',
@@ -125,33 +128,12 @@ export default {
       },
     ],
   },
-  referencias: [
-    {
-      referencia:
-        "Campos, D. (2010). The imagination and hypotesis-making in mathematics: A Peirce account. In M. Moore (ed.). New Essays on Peirce's Mathematical Philosophy. Illinois: Open Court.",
-      link: '',
-    },
-    {
-      referencia:
-        'Enderton, H. B. (2001). A Mathematical Introduction to Logic. Academic Press.',
-      link: '',
-    },
-    {
-      referencia:
-        'Hurley, P. J. (2014). A Concise Introduction to Logic (12th ed.). Cengage Learning.',
-      link: '',
-    },
-    {
-      referencia:
-        'Santaella, L. (2009). La evolución de los tres tipos de razonamiento: Abducción, inducción y deducción.',
-      link: '',
-    },
-  ],
+  referencias: [],
   glosario: [
     {
-      termino: 'Bicondicional',
+      termino: 'Axioma',
       significado:
-        'Operador lógico que indica que dos proposiciones son verdaderas o falsas simultáneamente. Se lee como "si y solo si". Ejemplo: p⇔q',
+        'Declaración o proposición que se considera verdadera sin necesidad de prueba y que sirve como punto de partida para deducir otros enunciados',
     },
     {
       termino: 'Conjuntos',
@@ -164,14 +146,14 @@ export default {
         'Operador lógico que expresa que si una proposición es verdadera, entonces otra también lo es. Se lee como "si p, entonces q". Ejemplo: p⇒q',
     },
     {
+      termino: 'Literal',
+      significado:
+        'Proposición atómica o su negación. Por ejemplo, si p es un literal, entonces ¬p\\neg también es un literal',
+    },
+    {
       termino: 'Lógica proposicional',
       significado:
         'Rama de la lógica que se ocupa de las proposiciones y de sus relaciones utilizando operadores lógicos como AND, OR y NOT',
-    },
-    {
-      termino: 'Negación',
-      significado:
-        'Operación lógica que invierte el valor de verdad de una proposición. Si p es una proposición, su negación se denota ¬p, y es verdadera si p es falsa, y viceversa',
     },
     {
       termino: 'Predicado',
@@ -179,19 +161,24 @@ export default {
         'Función o expresión lógica que contiene variables y puede evaluarse como verdadera o falsa cuando se sustituyen las variables por valores específicos. Ejemplo: P(x) donde x es una variable y P(x) es el predicado',
     },
     {
-      termino: 'Proposición',
+      termino: 'Reglas de inferencia',
       significado:
-        'Afirmación o enunciado que puede ser verdadero o falso, pero no ambas cosas a la vez. Ejemplo: "El sol es una estrella" es una proposición verdadera',
-    },
-    {
-      termino: 'Silogismo',
-      significado:
-        'Forma de razonamiento deductivo que consiste en dos premisas y una conclusión. Ejemplo: "Todos los hombres son mortales. Sócrates es hombre. Luego, Sócrates es mortal"',
+        'Normas dentro de un sistema formal que permiten derivar nuevas proposiciones o conclusiones a partir de proposiciones existentes',
     },
     {
       termino: 'Sistema de axiomas',
       significado:
         'Conjunto de proposiciones fundamentales aceptadas como verdaderas sin necesidad de demostración, a partir de las cuales se derivan otros teoremas',
+    },
+    {
+      termino: 'Sistema formal',
+      significado:
+        'Conjunto de axiomas, símbolos y reglas de inferencia que permiten deducir proposiciones y resolver problemas de forma estructurada y lógica',
+    },
+    {
+      termino: 'Teorema',
+      significado:
+        'Proposición que ha sido demostrada como verdadera mediante deducciones lógicas a partir de axiomas y reglas dentro de un sistema formal',
     },
   ],
   complementario: [

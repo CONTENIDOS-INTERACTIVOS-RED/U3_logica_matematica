@@ -1,3 +1,4 @@
+// TarjetaAudio.vue
 <template lang="pug">
 .tarjeta-audio.p-4
   .row.align-items-center
@@ -11,7 +12,15 @@
         button.audio__btn(v-else @click="pause")
           img(src="@/assets/template/audio-new.svg")
     .col
-      .tarjeta-audio__texto.h5(v-html="texto")
+      .d-flex.justify-content-between
+        .tarjeta-audio__texto.text-small.mb-2(v-html="texto")
+        .audio.position-relative(style="width: 40px" @mouseover.once="$emit('audio-hover')")
+          .spinner-border.spinner-border-sm(v-if="!audioCanPlay" role="status")
+            span.visually-hidden Loading..
+          button.audio__btn.bg-amarillo-oscuro-2(v-else-if="state ==='pause'"  @click="play")
+            img(src="@/assets/template/audio.svg")
+          button.audio__btn.bg-amarillo-oscuro-2(v-else @click="pause")
+            img(src="@/assets/template/pause.svg")
       .tarjeta-audio__input.mt-2(v-if="!noBarra")
         input(
           v-model="sliderVal",
