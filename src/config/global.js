@@ -88,6 +88,11 @@ export default {
         desarrolloContenidos: true,
         subMenu: [],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       // {
@@ -112,73 +117,79 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/Logica_Matematica_U3.zip',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
       },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
-      },
     ],
   },
-  referencias: [],
+  referencias: [
+    {
+      referencia:
+        "Campos, D. (2010). The imagination and hypotesis-making in mathematics: A Peirce account. In M. Moore (ed.). New Essays on Peirce's Mathematical Philosophy. Illinois: Open Court.",
+      link: '',
+    },
+    {
+      referencia:
+        'Hurley, P. J. (2014). A Concise Introduction to Logic (12th ed.). Cengage Learning.',
+      link: '',
+    },
+    {
+      referencia:
+        'Santaella, L. (2009). La evolución de los tres tipos de razonamiento: Abducción, inducción y deducción.',
+      link: 'http://www.unav.es/gep/AN/Santaella.html',
+    },
+  ],
   glosario: [
     {
       termino: 'Axioma',
       significado:
-        'Declaración o proposición que se considera verdadera sin necesidad de prueba y que sirve como punto de partida para deducir otros enunciados',
+        'Declaración o proposición que se considera verdadera sin necesidad de prueba y que sirve como punto de partida para deducir otros enunciados.',
     },
     {
       termino: 'Conjuntos',
       significado:
-        'Colecciones de elementos, que pueden ser números, objetos u otros conjuntos, y se utilizan frecuentemente en lógica matemática para formalizar proposiciones',
+        'Colecciones de elementos, que pueden ser números, objetos u otros conjuntos, y se utilizan frecuentemente en lógica matemática para formalizar proposiciones.',
     },
     {
       termino: 'Implicación',
       significado:
-        'Operador lógico que expresa que si una proposición es verdadera, entonces otra también lo es. Se lee como "si p, entonces q". Ejemplo: p⇒q',
+        'Operador lógico que expresa que si una proposición es verdadera, entonces otra también lo es. Se lee como "si p, entonces q". Ejemplo: p⇒q.',
     },
     {
       termino: 'Literal',
       significado:
-        'Proposición atómica o su negación. Por ejemplo, si p es un literal, entonces ¬p\\neg también es un literal',
+        'Proposición atómica o su negación. Por ejemplo, si p es un literal, entonces ¬p\\neg también es un literal.',
     },
     {
       termino: 'Lógica proposicional',
       significado:
-        'Rama de la lógica que se ocupa de las proposiciones y de sus relaciones utilizando operadores lógicos como AND, OR y NOT',
+        'Rama de la lógica que se ocupa de las proposiciones y de sus relaciones utilizando operadores lógicos como AND, OR y NOT.',
     },
     {
       termino: 'Predicado',
       significado:
-        'Función o expresión lógica que contiene variables y puede evaluarse como verdadera o falsa cuando se sustituyen las variables por valores específicos. Ejemplo: P(x) donde x es una variable y P(x) es el predicado',
+        'Función o expresión lógica que contiene variables y puede evaluarse como verdadera o falsa cuando se sustituyen las variables por valores específicos. Ejemplo: P(x) donde x es una variable y P(x) es el predicado.',
     },
     {
       termino: 'Reglas de inferencia',
       significado:
-        'Normas dentro de un sistema formal que permiten derivar nuevas proposiciones o conclusiones a partir de proposiciones existentes',
+        'Normas dentro de un sistema formal que permiten derivar nuevas proposiciones o conclusiones a partir de proposiciones existentes.',
     },
     {
       termino: 'Sistema de axiomas',
       significado:
-        'Conjunto de proposiciones fundamentales aceptadas como verdaderas sin necesidad de demostración, a partir de las cuales se derivan otros teoremas',
+        'Conjunto de proposiciones fundamentales aceptadas como verdaderas sin necesidad de demostración, a partir de las cuales se derivan otros teoremas.',
     },
     {
       termino: 'Sistema formal',
       significado:
-        'Conjunto de axiomas, símbolos y reglas de inferencia que permiten deducir proposiciones y resolver problemas de forma estructurada y lógica',
+        'Conjunto de axiomas, símbolos y reglas de inferencia que permiten deducir proposiciones y resolver problemas de forma estructurada y lógica.',
     },
     {
       termino: 'Teorema',
       significado:
-        'Proposición que ha sido demostrada como verdadera mediante deducciones lógicas a partir de axiomas y reglas dentro de un sistema formal',
+        'Proposición que ha sido demostrada como verdadera mediante deducciones lógicas a partir de axiomas y reglas dentro de un sistema formal.',
     },
   ],
   complementario: [

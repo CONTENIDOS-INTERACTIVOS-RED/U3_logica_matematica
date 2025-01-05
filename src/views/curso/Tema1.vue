@@ -256,7 +256,8 @@
         .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
           img.mx-auto.mb-4(src='@/assets/curso/unidad/img-31.svg', style="width: 80px")
           p.text-bold.mb-4.text-center Informática
-          p.px-1.text-small.mb-0.d-flex Es crucial para la creación de algoritmos, lenguajes de programación y sistemas de inteligencia artificial. Por ejemplo, en bases de datos relacionales, las consultas SQL pueden verse como predicados que seleccionan registros que cumplen ciertas condiciones. 
+          p.mb-4.px-1.text-small.mb-0.d-flex Es crucial para la creación de algoritmos, lenguajes de programación y sistemas de inteligencia artificial. Por ejemplo, en bases de datos relacionales, las consultas SQL pueden verse como predicados que seleccionan registros que cumplen ciertas condiciones. 
+          span.text-small <b>Ejemplo.</b> En una base de datos, la consulta <br> <b>SELECT * FROM empleados WHERE salario &gt; 50000 </b> <br> Es equivalente a un predicado que selecciona a todos los empleados cuyo salario es mayor a 50,000.
       .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
         .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
           img.mx-auto.mb-4(src='@/assets/curso/unidad/img-32.svg', style="width: 80px")
@@ -267,6 +268,21 @@
           img.mx-auto.mb-4(src='@/assets/curso/unidad/img-33.svg', style="width: 80px")
           p.text-bold.mb-4.text-center Ciencias sociales
           p.px-1.text-small.mb-0.d-flex En la teoría de juegos, se utiliza la lógica de predicados para modelar decisiones estratégicas donde los agentes toman acciones basadas en reglas lógicas.
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/61232") Soler, D. (2003). Problemas de fundamentos matemáticos. Editorial Tecnocientífica Americana.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/71220") Valdez, C. (2006). Análisis de funciones de varias variables. Editorial Félix Varela.
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 

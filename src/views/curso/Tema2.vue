@@ -20,7 +20,7 @@
         TarjetaAudio.color-primario.bg-white.mb-3(
           texto="Lógica Matemática: la base invisible de la tecnología moderna"
           tiempo
-          :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+          :audio="require('../../assets/componentes/audios/Podcast - Lógica matemática und III_mezcla.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
 
@@ -81,7 +81,20 @@
               figure
                 img(src='@/assets/curso/unidad/img-25.png', alt='Texto que describa la imagen')
 
-
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/70065") Gutierrez, I. (2013). Matemáticas para informática. Universidad del Norte.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/35676") Kindelan U. (2007). Fundamentos matemáticos de la ingeniería. Dykinson.
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 
 </template>

@@ -1,1 +1,2 @@
-module.exports = 'unidad 3: Lógica de predicados y aplicaciones en diferentes disciplinas'
+module.exports =
+  'Unidad 3: Lógica de predicados y aplicaciones en diferentes disciplinas'
