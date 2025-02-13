@@ -34,7 +34,7 @@
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto ¿Sabía que la ética es esencial en el desarrollo tecnológico?
           p.mb-5 En el documento Casos prácticos de ética en ingeniería, descubrirá cómo la ética influye en proyectos como el uso de inteligencia artificial en salud y la selección de personal mediante algoritmos. Estos ejemplos ilustran la importancia de principios como la transparencia y la equidad. Además, el documento destaca competencias y herramientas clave para que los ingenieros puedan actuar éticamente en un mundo tecnológico en constante cambio.
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Aplicaciones de sistemas formales en la resolución de problemas.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Casos prácticos de ética en ingeniería
              
